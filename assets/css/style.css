@@ -161,14 +161,14 @@ section {
     justify-content: space-around;
 }
 
-.work-img {
+.work-img img {
     width: 100%;
-    background: cyan;
 }
 
 .work-display {
     margin: 20px;
     flex: 1;
+    background: cyan;
 }
 
 .work-title{
