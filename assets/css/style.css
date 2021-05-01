@@ -230,6 +230,10 @@ section {
     font-size: 16px;
 }
 
+.contact-info a {
+    color: tomato       ;
+}
+
 .form-input {
     border: 3px solid #0995b8;
     display: block;
@@ -250,16 +254,14 @@ section {
 .contact-form form textarea {
     display: block;
     margin: 7px 0;
-    padding: 7px 15px;
+    padding: 15px 15px;
     width: 50%;
 }
 
 .contact-form textarea, 
 .contact-form input {
-    -webkit-rtl-ordering: logical;
-    -webkit-user-select: text;
     flex-direction: column;
-    resize: auto;
+    resize: none;
     cursor: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -277,11 +279,12 @@ section {
 .contact-form button {
     border: none;
     float: left;
-    color: #fff;
     width: 50%;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 15px 0;
+    font-size: 20px;
     border: 3px solid #0995b8;
+    background: rgba(255,255,255, 0.75);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .contact-form button:hover {
