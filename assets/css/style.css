@@ -114,6 +114,10 @@ section {
     margin-bottom: 15px;
 }
 
+.hero-profile img {
+    border-radius: 50%;
+}
+
 /* Footer Styles */
 .footer {
     background: rgb(56, 17, 32);
