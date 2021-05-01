@@ -185,6 +185,10 @@ section {
     width: 50%;
 }
 
+.primary-border {
+    border-color: tomato;
+}
+
 /* UTILITIES */
 .text-left {
     text-align: left;
