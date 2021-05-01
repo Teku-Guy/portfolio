@@ -289,3 +289,42 @@ section {
     color: #0995b8;
 }
 
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .work-title {
+      display: block;
+    }
+}
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .about-me p {
+      width: 100%;
+    }
+  
+    .work-display {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+  
+    .contact-form {
+      order: 3;
+    }
+}  
