@@ -162,12 +162,29 @@ section {
 }
 
 .works article {
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 .works article:hover {
     transform: scale(1.06);
     opacity: 1;
+}
+
+.works article a{
+    text-decoration: none;
+    color: rgb(180, 123, 0);
+}
+
+.work-title{
+    text-align: center;
+    margin: 7px 0;
+    font-size: 40px;
+}
+
+.sub-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .work-img img {
@@ -177,11 +194,7 @@ section {
 .work-display {
     margin: 20px;
     flex: 1;
-    background: cyan;
-}
-
-.work-title{
-    text-align: center;
+    background: #0d2239;
 }
 
 .section-title {
