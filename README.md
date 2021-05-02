@@ -8,7 +8,10 @@ This will be my Portfolio I will develop as i develop my skills at UCLA coding b
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+Can preview live [website here.](https://teku-guy.github.io/portfolio/)
+
+## Preview
+![preview of portfolio](./assets/imgs/prev-portfolio.png)
 
 ## Contribution
 Made with ❤️ by [Gustavo Muratalla]
