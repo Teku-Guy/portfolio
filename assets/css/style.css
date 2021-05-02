@@ -161,6 +161,15 @@ section {
     justify-content: space-around;
 }
 
+.works article {
+    opacity: 0.5;
+}
+
+.works article:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}
+
 .work-img img {
     width: 100%;
 }
