@@ -5,7 +5,7 @@
 }
 
 body {
-    background: gray;
+    background: #adabaa;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -146,15 +146,39 @@ section {
     width: 80%;
 }
 
+.about-me article{
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me p {
     line-height: 1.7;
-    color: var(--tertiary-color);
+    color: #dazure;
     width: 80%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 }
 
+.about-me div {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.about-me img:first-child {
+    padding-right: 15px;
+}
+
+.icons img{
+    width: 150px;
+}
+
+.icons img:last-child {
+    width: 200px;
+}
+
+/* Portfolio Styles*/
 .works {
     width: 100%;
     margin: 0 auto;
