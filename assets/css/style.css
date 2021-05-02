@@ -356,4 +356,10 @@ section {
     .contact-form {
       order: 3;
     }
+
+    .contact-form form input,
+    .contact-form form textarea,
+    .contact-form form button {
+        width: 100%;
+    }
 }  
