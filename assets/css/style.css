@@ -315,6 +315,7 @@ section {
 
 .contact-form button:hover {
     border-color: #e74c3c;
+    background-color: rgba(255,255,255, 1);
     color: #0995b8;
 }
 
@@ -332,6 +333,19 @@ section {
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+
+    .hero-cta {
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .hero-cta h2 {
+        font-size: 45px;
+    }
+
+    .hero-profile img {
+        width: 100%;
+    }
   
     .section-title {
       width: 95%;
