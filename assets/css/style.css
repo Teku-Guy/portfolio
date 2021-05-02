@@ -80,15 +80,16 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    width: 100%;
 }
 
 .hero-cta {
-    width: 35%;
+    width: 45%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 .hero-cta h2 {
@@ -102,15 +103,16 @@ section {
     width: 100%;
 }
 
-.hero img {
+.hero-profile img {
+    display: block;
+    margin-right: auto;
     padding: 20px;
-    width: 50%;
-    margin: 3.5%;
+    width: 75%;
 }
 
 .hero-profile {
     padding: 7px 20px;
-    width: 50%;
+    width: 40%;
     margin-bottom: 15px;
 }
 
@@ -363,6 +365,16 @@ section {
     .contact-info iframe{
       flex: 1 100%;
     }
+    
+    .hero-profile {
+        width: 70%;
+    }
+
+    .hero-profile img {
+        display: block;
+        margin: 0 auto;
+    }
+
   }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -374,7 +386,17 @@ section {
         display: block;
     }
 
-    .work-img{}
+    .work-title {
+        font-size: 17px;
+    }
+
+    .sub-title {
+        font-size: 15px;
+    }
+
+    .hero-profile img {
+        width: 100%;
+    }
 }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
