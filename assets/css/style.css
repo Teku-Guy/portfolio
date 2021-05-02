@@ -170,16 +170,12 @@ section {
     padding-top: 20px;
 }
 
-.about-me img:first-child {
+.about-me a:first-child {
     padding-right: 15px;
 }
 
-.icons img{
+.icons img {
     width: 150px;
-}
-
-.icons img:last-child {
-    width: 200px;
 }
 
 /* Portfolio Styles*/
@@ -425,6 +421,10 @@ section {
     .hero-profile img {
         width: 100%;
     }
+
+    .icons img {
+        width: 100px;
+    }
 }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -474,5 +474,9 @@ section {
     .contact-form form textarea,
     .contact-form form button {
         width: 100%;
+    }
+
+    .icons img {
+        width: 50px;
     }
 }  
