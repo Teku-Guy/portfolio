@@ -14,6 +14,6 @@ Can preview live [website here.](https://teku-guy.github.io/portfolio/)
 ![preview of portfolio](./assets/imgs/prev-portfolio.png)
 
 ## Contribution
-Made with ❤️ by [Gustavo Muratalla]
+Made with ❤️ by Gustavo Muratalla
 
 ### ©️2019 Gustavo Muratalla
